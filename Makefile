@@ -21,6 +21,7 @@ install_vue:
 
 #this is to give  a string to compose update  in other to update the vvendor in cases of pulling fforom git hub
 
+
 #check list of containers running in docker
 see_container:
 	docker ps
