@@ -8,7 +8,8 @@ To install this on your device ensure you have docker running on your Computer
    make access_laravel
 6. Run
    php artisan migrate
-8. Add new terminal at the parent folder
+7. Also Run the code below (To Return Back to the parent folder) or Add new terminal at the parent folder
+   exit
 9. Run the following command
     cd laravel-demo-app
     npm run dev
