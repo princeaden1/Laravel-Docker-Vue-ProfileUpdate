@@ -2,7 +2,7 @@
 setup:
 	@make build
 	@make up
-	@make create_laravel
+
 #@make composer-update
 build:
 	docker-compose build --no-cache --force-rm
@@ -24,6 +24,10 @@ install_vue:
 #check list of containers running in docker
 see_container:
 	docker ps
+#access laravel installed folder
+
+delete_container:
+	docker-compose down
 #access laravel installed folder
 
 access_laravel:
